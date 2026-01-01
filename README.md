@@ -1,96 +1,80 @@
-# 👋 سلام! من “mahanch” هستم
+# 👋 Hi, I'm “mahan”
 
-توسعه‌دهنده‌ی بک‌اند با محوریت .NET Core و علاقه‌مند به معماری‌های تمیز، مقیاس‌پذیر و مبتنی بر دامنه. تمرکز اصلی من روی طراحی و پیاده‌سازی سیستم‌های حرفه‌ای با الگوهای DDD، CQRS، Clean Architecture، Microservice و Onion Architecture است. همچنین برای پردازش‌های پس‌زمینه از HangFire استفاده می‌کنم و در کنار .NET، با Flutter و Python پروژه‌های مکمل مخصوصاً در حوزه‌ی بینایی ماشین (Face Detection/Embedding) انجام می‌دهم.
-
----
-
-## 🎯 فلسفه‌ی کاری و معماری
-- Domain-Driven Design (DDD): اولویت با مدل دامنه، مفاهیم فرا-زبان، Bounded Context و محافظت از قوانین کسب‌وکار.
-- CQRS و Event-Driven: جداسازی خواندن/نوشتن، استفاده از الگوهای پیام‌رسانی برای مقیاس‌پذیری و جداسازی نگرانی‌ها.
-- Clean Architecture و Onion Architecture: جداسازی لایه‌ها، استقلال از فریم‌ورک‌ها و تست‌پذیری بالا.
-- Microservices: طراحی سرویس‌های خودمختار با مرزهای مشخص، ارتباطات مبتنی بر پیام/HTTP، و قابلیت دیپلوی مستقل.
-- Background Processing: زمان‌بندی وظایف و صف‌های پردازش با HangFire (Retry، Monitoring، Dashboard).
-- Observability: لاگ‌گیری ساختارمند، ردیابی و مانیتورینگ برای پایدارسازی سرویس‌ها.
-- Quality: تست واحد/یکپارچه، CI/CD، Code Review و استانداردهای کدنویسی.
+Backend engineer focused on .NET Core, designing domain-centric, scalable, and clean systems. My core expertise includes Domain-Driven Design (DDD), CQRS, Clean Architecture, Microservices, and Onion Architecture. I use HangFire for background processing and complement my .NET work with Flutter (for cross‑platform UI) and Python (for computer vision and face analytics).
 
 ---
 
-## 🛠️ مهارت‌ها و ابزارهایی که معمولاً استفاده می‌کنم
-- .NET 6/7/8، ASP.NET Core، EF Core، LINQ
-- معماری‌ها: DDD، CQRS، Clean Architecture، Microservice، Onion Architecture
-- الگوها/کتابخانه‌ها: MediatR، AutoMapper، FluentValidation
-- امنیت و هویت: JWT، ASP.NET Identity
-- پیام‌رسانی و کش: RabbitMQ/Kafka، Redis
-- ارتباطات سرویس‌ها: REST، gRPC
-- دیتابیس‌ها: SQL Server، PostgreSQL
-- DevOps: Docker، Kubernetes (K8s)، GitHub Actions
-- پس‌زمینه: HangFire، Quartz.NET
-- تست: xUnit، Integration Tests
-- Front و موبایل: Flutter (Dart)
-- علوم داده/بینایی ماشین: Python (Face Detection/Embedding)
+## 🎯 Engineering Philosophy
+- Domain-Driven Design (DDD): Domain-first, ubiquitous language, Bounded Contexts, and strong business invariants.
+- CQRS & Event-Driven: Separate read/write models, leverage messaging for scalability and decoupling.
+- Clean & Onion Architectures: Clear boundaries, framework independence, and high testability.
+- Microservices: Autonomous services with well-defined boundaries, independent deployment, and resilient communication.
+- Background Processing: Reliable job scheduling, retries, and monitoring with HangFire.
+- Observability: Structured logging, tracing, and actionable metrics for production reliability.
+- Quality: Unit/integration tests, CI/CD, code reviews, and consistent coding standards.
 
 ---
 
-## 🚀 پروژه‌های پابلیک منتخب
-- [OriginalGozareshgir](https://github.com/samsyntax24/OriginalGozareshgir)  
-  ترکیب زبان‌ها: C# (32.1٪)، JavaScript (31.3٪)، HTML (28.6٪)، CSS (7.7٪)، ActionScript (0.2٪)، PHP (0.1٪)  
-  توضیح: اپلیکیشن گزارش‌گیری با بک‌اند C# و فرانت‌اند وب؛ مناسب برای نمایش مهارت‌های فول‌استک روی پشته‌ی .NET + Web.
-
-- [TaskBgService](https://github.com/syntax24/TaskBgService)  
-  ترکیب زبان‌ها: C# (100٪)  
-  توضیح: پیاده‌سازی سرویس پس‌زمینه در .NET؛ نمایش‌دهنده‌ی تجربه‌ی زمان‌بندی وظایف، صف‌ها و پردازش‌های آسنکرون (سازگار با HangFire/Quartz).
-
-- [gozareshgir_face_detection](https://github.com/syntax24/gozareshgir_face_detection)  
-  ترکیب زبان‌ها: Dart (99.9٪)، Other (0.1٪)  
-  توضیح: اپ Flutter برای تشخیص چهره؛ مکمل مسیر بینایی ماشین در سمت کلاینت موبایل.
-
-- [gozareshgir_face_embedding](https://github.com/syntax24/gozareshgir_face_embedding)  
-  ترکیب زبان‌ها: Python (100٪)  
-  توضیح: اسکریپت‌ها/مدل‌های مربوط به امبدینگ چهره؛ مناسب برای ادغام با سرویس‌های .NET در معماری‌های میکروسرویس.
+## 🛠️ Skills & Tools
+- .NET 6/7/8, ASP.NET Core, EF Core, LINQ
+- Architectures: DDD, CQRS, Clean Architecture, Microservices, Onion Architecture
+- Libraries/Patterns: MediatR, AutoMapper, FluentValidation
+- Auth/Security: JWT, ASP.NET Identity
+- Messaging & Cache: RabbitMQ/Kafka, Redis
+- Service Communication: REST, gRPC
+- Databases: SQL Server, PostgreSQL
+- DevOps: Docker, Kubernetes (K8s), GitHub Actions
+- Background jobs: HangFire, Quartz.NET
+- Testing: xUnit and Integration testing
+- Frontend/Mobile: Flutter (Dart)
+- Data/ML: Python (Face Detection/Embedding)
 
 ---
 
-## 🔗 هم‌افزایی .NET + Flutter + Python
-- .NET Core به‌عنوان ستون فقرات بک‌اند: سرویس‌های امن، مقیاس‌پذیر و تست‌پذیر.
-- Flutter برای UI سریع و کراس‌پلتفرم: ارائه‌ی تجربه‌ی کاربری روان به‌همراه ادغام با APIها.
-- Python برای پردازش‌های هوش‌مصنوعی/بینایی ماشین: سرویس‌های مدل‌محور که از طریق REST/gRPC با .NET همگام می‌شوند.
+
+## 🔗 .NET + Flutter + Python Synergy
+- .NET Core as the backbone: secure, scalable, and testable backend services.
+- Flutter for fast cross‑platform UI: smooth user experiences, integrated with robust APIs.
+- Python for AI/CV: model‑driven services communicating with .NET via REST/gRPC for face detection/embedding.
 
 ---
 
-## 🧩 نمونه‌ی چیدمان پروژه‌ها (پیشنهادی)
-```
+## 🧩 Suggested Project Layout
+```text
 src/
   ├─ Presentation (API, gRPC, UI)
   ├─ Application (Use Cases, DTOs, Mediators)
-  ├─ Domain (Entities, ValueObjects, Aggregates, Events, Repositories Interfaces)
-  ├─ Infrastructure (EF Core, Messaging, Caching, External Services, Implementations)
+  ├─ Domain (Entities, Value Objects, Aggregates, Domain Events, Repository Interfaces)
+  ├─ Infrastructure (EF Core, Messaging, Caching, External Integrations)
   └─ BackgroundJobs (HangFire Jobs, Schedulers)
 tests/
   ├─ UnitTests
   └─ IntegrationTests
 ```
-- مرزبندی‌ها با Bounded Context و پکیج‌های جداگانه برای سرویس‌های میکروسرویسی.
-- هر سرویس با پیکربندی Deploy مستقل و پایپ‌لاین CI/CD اختصاصی.
+- Bounded Contexts as separate packages/services for microservice boundaries.
+- Each service with independent deployment config and dedicated CI/CD pipeline.
 
 ---
 
-## 📈 آمار گیت‌هاب
+## 📈 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mahanch&show_icons=true&theme=transparent)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mahanch&layout=compact&theme=transparent)
 
 ---
 
-## 🤝 همکاری و ارتباط
-- اگر به معماری‌های مبتنی بر دامنه، سرویس‌های مقیاس‌پذیر، و ادغام بین .NET، Flutter و Python علاقه دارید، خوشحال می‌شوم همکاری کنیم.
-- برای ارتباط: لطفاً از طریق [Issues](https://github.com/mahanch/mahanch/issues) یا پیام در گیت‌هاب اقدام کنید.  
-  (در صورت تمایل، ایمیل/شبکه‌های اجتماعی خود را اینجا اضافه کنید.)
+## 🤝 Collaboration & Contact
+- Interested in domain‑centric architectures, scalable services, and .NET + Flutter + Python integrations? Let’s collaborate.
+- Contact: please open an [Issue](https://github.com/mahanch/mahanch/issues) or message via GitHub.  
+  (Add your email/social links here if you prefer.)
 
 ---
 
-## 🧭 برنامه‌ی توسعه (Roadmap کوتاه)
-- تکمیل ابزارهای Observability (Tracing/Logging) در سرویس‌ها
-- بهبود تست‌های یکپارچه و قراردادهای API
-- مستندسازی Bounded Contextها و الگوهای ارتباطی
-- مهاجرت/ارتقا نسخه‌های .NET و بهینه‌سازی Performance
+## 🧭 Short Roadmap
+- Strengthen observability (tracing/logging) across services
+- Improve integration, contract, and end‑to‑end testing
+- Document Bounded Contexts and inter‑service communication patterns
+- Upgrade .NET versions and performance tuning
 
----.
+---
+
+> Note: To display this README on your profile, create the special repository `mahanch/mahanch` and add this file as `README.md`. If you want more customization or sections (e.g., achievements, certifications, tech blog links), tell me and I’ll tailor it.
