@@ -16,7 +16,7 @@ Backend engineer focused on .NET Core, designing domain-centric, scalable, and c
 ---
 
 ## 🛠️ Skills & Tools
-- .NET 6/7/8, ASP.NET Core, EF Core, LINQ
+- .NET 6/7/8/10, ASP.NET Core, EF Core, LINQ
 - Architectures: DDD, CQRS, Clean Architecture, Microservices, Onion Architecture
 - Libraries/Patterns: MediatR, AutoMapper, FluentValidation
 - Auth/Security: JWT, ASP.NET Identity
@@ -74,7 +74,3 @@ tests/
 - Improve integration, contract, and end‑to‑end testing
 - Document Bounded Contexts and inter‑service communication patterns
 - Upgrade .NET versions and performance tuning
-
----
-
-> Note: To display this README on your profile, create the special repository `mahanch/mahanch` and add this file as `README.md`. If you want more customization or sections (e.g., achievements, certifications, tech blog links), tell me and I’ll tailor it.
